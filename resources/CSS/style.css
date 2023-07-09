@@ -1,0 +1,73 @@
+body {
+    background-color: #edeff2;
+}
+
+#navbar img {
+    height: 29px;
+    width: 112.5px;
+}
+
+#home {
+    background-image: url("../img/lines.jpeg");
+    height: 789px;
+}
+
+#services {
+    display: inline-flex;
+    width: 1045px;
+    height: 410px;
+}
+
+#services img {
+    width: 110px;
+    height: 100px;
+}
+
+.portfolio img {
+    width: 100%;
+    height: 741px;
+}
+
+.quote {
+    height: 431px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.quote h3 {
+    line-height: 20px;
+}
+
+.quote img {
+    width: 110px;
+    height: 75px;
+    text-align: center;
+}
+
+#about {
+    background-image: url("../img/Grass.jpg");
+    background-size: cover;
+    height: 431px;
+    width: 100%;
+    position: relative;
+}
+
+#about h2 {
+    color: rgb(255, 255, 255);
+    float: right;
+}
+
+#contact {
+    height: 495px;
+}
+
+#footer {
+    background-image: url("../img/footer.png");
+    background-size: cover;
+    position: relative;
+    height: 150px;
+}
+
+#footer p {
+    position: absolute;
+}
