@@ -2,20 +2,72 @@ body {
     background-color: #edeff2;
 }
 
+/* NAVIGATION */
+#navbar {
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+}
+
 #navbar img {
     height: 29px;
     width: 112.5px;
 }
 
+/* HEADER SECTION */
 #home {
     background-image: url("../img/lines.jpeg");
-    height: 789px;
+    background-size: cover;
+    height: 736px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
 }
 
+.header {
+    padding-top: 200px;
+    padding-bottom: 275px;
+}
+
+.header h1 {
+    color: #FFF;
+    font-size: 68px;
+    line-height: 58px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.header p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    height: 48px;
+}
+
+button {
+    background-color: #114d29;
+    padding: 12px 30px;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 21px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    opacity: 0.8;
+    transition: background-color 300ms ease;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* SERVICES */
 #services {
-    display: inline-flex;
-    width: 1045px;
     height: 410px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: center;
 }
 
 #services img {
@@ -23,44 +75,95 @@ body {
     height: 100px;
 }
 
+.jobs h3 {
+    font-family: din-condensed-web, sans-serif;
+    color: #114d29;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.jobs span {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #5e5e5e;
+    font-family: 'Open sans', sans-serif;
+}
+
+/*PORTFOLIO */
 .portfolio img {
     width: 100%;
     height: 741px;
 }
 
+/* QUOTE SECTION */
 .quote {
-    height: 431px;
+    height: 393px;
     line-height: 20px;
     text-align: center;
+    margin-top: 40px;
+    padding: 25px 10px 50px 10px;
 }
 
-.quote h3 {
+.quote p {
+    color: rgb(103, 103, 112);
+    line-height: 46px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    font-style: italic;
+    letter-spacing: 1px;
+
+}
+
+.quote span {
+    color: rgb(142, 142, 156);
+    font-family: din-condensed-web, sans-serif;
+    letter-spacing: 3px;
     line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .quote img {
     width: 110px;
     height: 75px;
     text-align: center;
+    margin-bottom: 24px;
 }
 
+/* ABOUT SECTION */
 #about {
     background-image: url("../img/Grass.jpg");
     background-size: cover;
-    height: 431px;
     width: 100%;
+    height: 350px;
     position: relative;
+    padding-top: 100px;
 }
 
-#about h2 {
+.about-header {
     color: rgb(255, 255, 255);
+    margin-left: 650px;
+}
+
+.info {
+    color: rgb(255, 255, 255);
+    font-family: "Open-Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-right: 145px;
     float: right;
 }
 
+/* CONTACT SECTION */
 #contact {
     height: 495px;
 }
 
+/* FOOTER SECTION */
 #footer {
     background-image: url("../img/footer.png");
     background-size: cover;
