@@ -10,11 +10,17 @@
 
 <!--NAVIGATION-->
     <div id="navbar">
+    <div class="navbar-left">
         <img src="./resources/img/logo.png" alt="logo">
-        <a href="#home">Home</a>
-        <a href="#services">Services</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+    </div>
+    <div class="navbar-right">
+    <div class="links">
+        <a href="#home">HOME</a>
+        <a href="#services">SERVICES</a>
+        <a href="#about">ABOUT</a>
+        <a href="#contact">CONTACT</a>
+        </div>
+    </div>
     </div>
 
 <!--HEADER-->
@@ -75,6 +81,15 @@
 <!--CONTACT-->
     <div id="contact">
         <h2>CONTACT US</h2>
+    <form id="email-form">
+        <label for="name" class="contatcheader">Name</label>
+        <input type="text" id="name" name="name" data-name="Name" placeholder="Enter your name" maxlength="500" class="textfield-w-input">
+        <label for="email" class="contactheader">Email</label>
+        <input type="email" id="email" name="email" data-name="Email" placeholder="Enter your email" maxlength="500" class="textfield-w-input">
+        <label for="message" class="contactheader">Message</label>
+        <input type="text" id="message" name="Message" data-name="Message" placeholder="Enter your message" maxlength="500" class="textfield-w-input">
+        <input type="submit" value="submit" data-wait="Please wait..." class="submit-button w-button">
+    </form>
     </div>
 
 <!--FOOTER-->
