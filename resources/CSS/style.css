@@ -68,7 +68,7 @@ a {
 
 /* HEADER SECTION */
 #home {
-    background-image: url("../img/lines.jpeg");
+    background-image: url("../img/RNR_HERO.jpeg");
     background-size: cover;
     height: 736px;
     text-align: center;
@@ -82,8 +82,8 @@ a {
 
 .header h1 {
     color: #FFF;
-    font-size: 42px;
-    line-height: 48px;
+    font-size: 48px;
+    line-height: 42px;
     letter-spacing: 2px;
     font-weight: 700;
     margin-bottom: 20px;
