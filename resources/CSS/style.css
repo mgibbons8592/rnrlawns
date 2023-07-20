@@ -215,10 +215,21 @@ button {
 
 /* CONTACT SECTION */
 #contact {
-    height: 495px;
+width: 100%;
+max-width:800px;
+margin-right: auto;
+margin-left:auto;    
 }
 
-#contact h2 {
+.contact-wrapper {
+    padding-left:8%;
+    padding-right:8%;
+    padding-top: 60px;
+    padding-bottom:60px;
+    background-color:#edeff2;
+}
+
+h2 {
     text-align: center;
     color: rgb(17, 77, 41);
     font-family: din-condensed-web, sans-serif;
@@ -234,6 +245,7 @@ button {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     line-height: 20px;
+
 }
 
 label {
@@ -243,7 +255,6 @@ label {
     letter-spacing: 2px;
     margin-bottom: 15px;
     text-align: left;
-    margin-left: 15%;
     font-weight: 700;
 }
 
@@ -301,11 +312,10 @@ text-indent: 0px;
 text-rendering: auto;
 text-shadow: none;
 text-transform: none;
-width: 900px;
+width: 100%;
 word-spacing: 0px;
 writing-mode: horizontal-tb;
 -webkit-rtl-ordering: logical;
-margin-left: 15%;
 margin-top: 15px;
 }
 
